@@ -6,7 +6,7 @@ package javadatabaseconnection;
 import java.sql.*;
 /**
  *
- * @author gheorgheaurelpacurar
+ * @author Spunnky
  */
 public class JDBCExample {
     public static void main (String[] args)

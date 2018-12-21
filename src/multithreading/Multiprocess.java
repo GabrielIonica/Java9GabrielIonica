@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author gheor
+ * @author Spunnky
  */
 public class Multiprocess {
 

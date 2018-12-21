@@ -5,7 +5,7 @@ package multithreading;
 
 /**
  *
- * @author gheor
+ * @author Spunnky
  */
 public class Scadere extends Thread{
     private Contor contor;

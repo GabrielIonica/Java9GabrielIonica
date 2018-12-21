@@ -12,7 +12,7 @@ import java.util.Formatter;
 import java.util.Locale;
 
 /**
- * @author gheorgheaurelpacurar
+ * @author Spunnky
  */
 public class StatementUsageExample {
     public static void main (String[] args)

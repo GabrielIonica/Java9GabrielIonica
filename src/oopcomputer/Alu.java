@@ -1,27 +1,26 @@
 /*
- * ALU Aritmecical Logical Unit
+ * Aritmetical and Logical Unit
  */
 package oopcomputer;
 
 /**
  *
- * @author Spunnky
+ * @author gheor
  */
-public class ALU {
+public class Alu {
     
-    private Integer operandUnu;
-    private Integer operandDoi;
-    private Character operand;
-    private Integer rezultat;
+    private Integer operandUnu = 0;
+    private Integer operandDoi = 0;
+    private Character operator = ' ';
+    private Integer rezultat = 0;
 
-    public Character getOperand() {
-        return operand;
+    public Character getOperator() {
+        return operator;
     }
 
-    public void setOperand(Character operand) {
-        this.operand = operand;
+    public void setOperator(Character operator) {
+        this.operator = operator;
     }
-    
 
     public Integer getOperandUnu() {
         return operandUnu;
@@ -46,27 +45,26 @@ public class ALU {
     public void setRezultat(Integer rezultat) {
         this.rezultat = rezultat;
     }
+
     
-    
-    public void calculeaza (){
+    public void calculeaza(){
         
-        switch (operand){
+        switch (operator){
         
-            case '+':
+            case '+': 
                 rezultat = operandUnu + operandDoi;
                 break;
-            case '-':
+            case '-': 
                 rezultat = operandUnu - operandDoi;
                 break;
-            case '*':
+            case '*': 
                 rezultat = operandUnu * operandDoi;
                 break;
-            case '/':
+            case '/': 
                 rezultat = operandUnu / operandDoi;
                 break;
             default: 
-               System.out.println("Operatorul este incorect. Folositi +,-,*,/");
+                System.out.println("Operatorul este incorect. Folositi +, -, * sau /");
         }
     }
-    
 }

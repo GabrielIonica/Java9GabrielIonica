@@ -28,4 +28,3 @@ public class Buton {
         ecranTemporar.setAfisaj(simbol.toString());
     }
 }
-

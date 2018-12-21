@@ -9,7 +9,7 @@ package oopcomputer;
  */
 public class Carcasa {
     
-    private final Ecran ecran = new Ecran(this);
+    private Ecran ecran = new Ecran(this);
 
     public Ecran getEcran() {
         return ecran;
@@ -29,10 +29,9 @@ public class Carcasa {
     public Buton butonOri = new Buton('*',this);
     public Buton butonImpartire = new Buton('/',this);
     public Buton butonEgal = new Buton('=',this);
-    private final Alu alu = new Alu();    
+    private Alu alu = new Alu();    
 
     public Alu getAlu() {
         return alu;
     }
 }
-

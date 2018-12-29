@@ -67,4 +67,12 @@ public class Alu {
                 System.out.println("Operatorul este incorect. Folositi +, -, * sau /");
         }
     }
+
+    Character getOperand() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    Character getOperand() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

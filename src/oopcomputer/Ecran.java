@@ -15,6 +15,14 @@ public class Ecran {
     public Ecran(Carcasa nouaStapana) {
         this.stapana = nouaStapana;
     }
+
+    public Ecran() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Ecran() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public String getAfisaj() {
         return afisaj;

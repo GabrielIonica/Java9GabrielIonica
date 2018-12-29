@@ -21,7 +21,7 @@ public class ALUTest {
     @Test
     public void testGetOperand() {
         System.out.println("getOperand");
-        ALU instance = new ALU();
+        Alu instance = new Alu();
         Character expResult = null;
         Character result = instance.getOperand();
         assertEquals(expResult, result);
